@@ -7,7 +7,7 @@ const client = new Client({
 });
 
 client.on('ready', () => {
-  console.log(`Bot listo ${client.user?.tag}`)
+  console.log(`Bot ready ${client.user?.tag}`)
 });
 
 client.login(token)
